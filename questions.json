@@ -1,0 +1,822 @@
+[
+    {
+        "title": [
+            "Kas programmēšanas valodās ir netipiskie vai ārkārtējie apstākļi, kas prasa īpašu apstrādi?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. izņēmumi (exception) ",
+            "b. metodes (member function) ",
+            "c. operācijas (operation) ",
+            "d. funkcijas (function) "
+        ],
+        "correctAnswer": [
+            "a. izņēmumi (exception) "
+        ]
+    },
+    {
+        "title": [
+            "Kā pareizi Java / C# valodā definēt un izveidot ManaKlase klases objektu ar nosaukumu mansObjekts?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. class ManaKlase ",
+            "b. ManaKlase(); ",
+            "c. mansObjekts ",
+            "d. new mansObjekts ",
+            "e. new ManaKlase(); ",
+            "f. new mansObjekts(); ",
+            "g. new ManaKlase(); ",
+            "h. ManaKlase mansObjekts "
+        ],
+        "correctAnswer": [
+            "h. ManaKlase mansObjekts "
+        ]
+    },
+    {
+        "title": [
+            "Kuru simbolu lieto C++, C#, Delfi vai Java programmas rindas komentāram?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. // ",
+            "b. < ",
+            "c. !! ",
+            "d.  "
+        ],
+        "correctAnswer": [
+            "a. // "
+        ]
+    },
+    {
+        "title": [
+            "Kurš C++ / Java / C# valodas operators izsauc objekta mansObjekts metodi manaMetode bez argumentiem?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. manaMetode().mansObjekts; ",
+            "b. manaMetode.mansObjekts; ",
+            "c. mansObjekts.manaMetode; ",
+            "d. mansObjekts.manaMetode(); "
+        ],
+        "correctAnswer": [
+            "d. mansObjekts.manaMetode(); "
+        ]
+    },
+    {
+        "title": [
+            "Ko nodrošina atslēgas vārda this izmantošana valodās C++/Java/C#?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. piekļuvi klases eksemplāram ",
+            "b. piekļuvi klases sākuma adresei ",
+            "c. klases atribūta izveidošanu ",
+            "d. objekta atribūta izveidošanu "
+        ],
+        "correctAnswer": [
+            "a. piekļuvi klases eksemplāram "
+        ]
+    },
+    {
+        "title": [
+            "Kā pareizi deklarēt metodi ar nosaukumu \"manaMetode\" C++ / Java / C# valodā?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. void manaMetode ",
+            "b. void manaMetode( ) ",
+            "c. void manaMetode[ ] ",
+            "d. void() manaMetode "
+        ],
+        "correctAnswer": [
+            "b. void manaMetode( ) "
+        ]
+    },
+    {
+        "title": [
+            "Kā izskatīsies skaitlis 999000 zinātniskā (scientific) formā?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. 9,99E^05 ",
+            "b. 9,99E-05 ",
+            "c. 9,99E+05 ",
+            "d. 1,00E+6 "
+        ],
+        "correctAnswer": [
+            "c. 9,99E+05 "
+        ]
+    },
+    {
+        "title": [
+            "Kuras datu struktūras realizācijai programmēšanas valodās ir paredzētas konstrukcijas struct vai record?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. reālam skaitlim ",
+            "b. ierakstam ",
+            "c. rakstzīmju virknei ",
+            "d. masīvam "
+        ],
+        "correctAnswer": []
+    },
+    {
+        "title": [
+            "Kādiem mērķiem programmēšanas valodās izmanto sazarojumus?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. lai izvēlētos vienu no programmas izpildes ceļiem ",
+            "b. lai noteiktā programmas vietā izpildītu nevis vienu, bet vairākus operatorus ",
+            "c. lai kādas darbības atkārtotu vairākas reizes ",
+            "d. lai izvadītu informāciju uz ekrāna "
+        ],
+        "correctAnswer": [
+            "a. lai izvēlētos vienu no programmas izpildes ceļiem "
+        ]
+    },
+    {
+        "title": [
+            "Ko JAVA / PHP / C# / C++ valodas metodēm dod atslēgvārds \"static\"?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. metodes var izsaukt tikai no klases un tās objektiem ",
+            "b. metodes neveic nekādu darbību ",
+            "c. metodes pieder klasei un var tikt izsauktas bez klases objekta ",
+            "d. metodes atgriežamā vērtība kļūst nemainīga "
+        ],
+        "correctAnswer": []
+    },
+    {
+        "title": [
+            "Kurš atslēgvārdu pāris ļauj apstrādāt izņēmumus (exceptions) C++ / Java / C# valodā?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. do while ",
+            "b. try do ",
+            "c. for do ",
+            "d. try catch "
+        ],
+        "correctAnswer": [
+            "d. try catch "
+        ]
+    },
+    {
+        "title": [
+            "Kuras bāzes klases metodes ir obligāti jāpārdefinē atvasinātajā klasē?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. statiskās ",
+            "b. aizsargātās ",
+            "c. publiskās ",
+            "d. abstraktās "
+        ],
+        "correctAnswer": [
+            "d. abstraktās "
+        ]
+    },
+    {
+        "title": [
+            "Cik baitu atmiņā C++ un Pascal valodās aizņem char tipa mainīgais?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. 0 ",
+            "b. 1 ",
+            "c. 4 ",
+            "d. 2 "
+        ],
+        "correctAnswer": [
+            "b. 1 "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir viendimensiju masīva elementa indekss?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. masīva rindas numurs ",
+            "b. masīva elementa numurs ",
+            "c. masīva elementa vērtība ",
+            "d. masīva kolonnas numurs "
+        ],
+        "correctAnswer": [
+            "b. masīva elementa numurs "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir translators?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. tulkotājs no mašīnvalodas uz augstā līmeņa valodu ",
+            "b. jebkura programma mašīnvalodā ",
+            "c. tulkotājs no augstā līmeņa programmēšanas valodas uz zemā līmeņa valodu ",
+            "d. tulkotājs no vienas mašīnas komandu valodas uz citas mašīnas valodu "
+        ],
+        "correctAnswer": [
+            "c. tulkotājs no augstā līmeņa programmēšanas valodas uz zemā līmeņa valodu "
+        ]
+    },
+    {
+        "title": [
+            "Kas OOP ļauj veidot jaunas klases uz jau esošo klašu bāzes?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. mantošana ",
+            "b. pārdefinēšana ",
+            "c. tipu abstrakcija ",
+            "d. pārslogošana "
+        ],
+        "correctAnswer": [
+            "a. mantošana "
+        ]
+    },
+    {
+        "title": [
+            "Ar ko programmēšanas valodās atšķiras jēdzieni \"procedūra\" un \"funkcija\"?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. nekādas starpības nav ",
+            "b. darbības rezultātā funkcija atgriež vērtību, bet procedūra vērtību neatgriež ",
+            "c. procedūras var apstrādāt globālos mainīgos, bet funkcijas – tikai lokālos ",
+            "d. procedūras izpildās, kā apakšprogrammas, funkcijas – rēķina tikai aritmētiskās un loģiskās izteiksmes "
+        ],
+        "correctAnswer": [
+            "b. darbības rezultātā funkcija atgriež vērtību, bet procedūra vērtību neatgriež "
+        ]
+    },
+    {
+        "title": [
+            "Kurš nav C++/Java/C# rezervētais vārds?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. break ",
+            "b. continue ",
+            "c. else ",
+            "d. select "
+        ],
+        "correctAnswer": [
+            "d. select "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir kopīgs programmēšanas valodu operatoriem for, while un repeat (vai do...while)?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. visi ir nosacījuma operatori ",
+            "b. visiem skaitītājs palielinās automātiski ",
+            "c. visi ir cikla operatori ",
+            "d. visiem jāpalielina skaitītājs par 1 "
+        ],
+        "correctAnswer": [
+            "c. visi ir cikla operatori "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir dinamiskie mainīgie?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. mainīgie, kuriem vieta atmiņā tiek izdalīta un atbrīvota programmas darbības laikā ",
+            "b. mainīgie, kuriem vieta atmiņā tiek izdalīta pirms programmas kompilēšanas ",
+            "c. mainīgie, kuru vērtības nedrīkst mainīt programmas darbības laikā ",
+            "d. mainīgie, kuru vērtības var mainīt programmas darbības laikā "
+        ],
+        "correctAnswer": [
+            "a. mainīgie, kuriem vieta atmiņā tiek izdalīta un atbrīvota programmas darbības laikā "
+        ]
+    },
+    {
+        "title": [
+            "Konstrukciju \"return\" var neizmantot funkcijām vai metodēm, kas ir definētas kā ..."
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. public ",
+            "b. static ",
+            "c. protected ",
+            "d. void "
+        ],
+        "correctAnswer": [
+            "d. void "
+        ]
+    },
+    {
+        "title": [
+            "Dots programmas fragments",
+            " C++/Java/C#:",
+            "void myAge( ){int age = 20;}",
+            "Pascal:",
+            "procedure myAge; var age: integer; begin age := 20; end;",
+            " Kas ir age?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. lokālais mainīgais ",
+            "b. funkcijas/procedūras ārējais mainīgais ",
+            "c. funkcijas/procedūras parametrs ",
+            "d. globālais mainīgais "
+        ],
+        "correctAnswer": []
+    },
+    {
+        "title": [
+            "Kura nav salīdzināšanas operācijas zīme programmēšanas valodās?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a.  ",
+            "b. > ",
+            "c. -> ",
+            "d. < ",
+            "e. > "
+        ],
+        "correctAnswer": [
+            "c. -> "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir metode?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. funkcija, kas definēta klasē ",
+            "b. funkcija, kas izsauc klasi ",
+            "c. funkcija, kas izveido objektu ",
+            "d. funkcija, kas izveido klasi "
+        ],
+        "correctAnswer": [
+            "a. funkcija, kas definēta klasē "
+        ]
+    },
+    {
+        "title": [
+            "Ko dara dotais kods, ja m ir masīvs ar 10 elementiem, bet mainīgie sm un i ir veselie?",
+            " C++/Java/C#:",
+            "sm = 0; i = 0; ",
+            "while (i < 10) {sm = sm + m[i]; i++;}",
+            "Pascal:",
+            "sm := 0; i := 0; ",
+            "while (i < 10) begin sm := sm + m[i]; inc(i); end;"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. nosaka i robežas ",
+            "b. saskaita sm un m ",
+            "c. sasummē masīva m elementu vērtības ",
+            "d. saskaita masīva elementu skaitu "
+        ],
+        "correctAnswer": [
+            "c. sasummē masīva m elementu vērtības "
+        ]
+    },
+    {
+        "title": [
+            "Kura no norādītām izteiksmēm nav C++, C# vai Java programmu operācija?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. a + ",
+            "b. 5; ",
+            "c. 5; ",
+            "d. 5; ",
+            "e. a: ",
+            "f. a * ",
+            "g. 5; ",
+            "h. a % "
+        ],
+        "correctAnswer": [
+            "e. a: "
+        ]
+    },
+    {
+        "title": [
+            "Kura metode izveido klases objektu?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. iekļautā funkcija ",
+            "b. ārējā funkcija ",
+            "c. destruktors ",
+            "d. konstruktors "
+        ],
+        "correctAnswer": []
+    },
+    {
+        "title": [
+            "Kādiem mērķiem programmēšanas valodās izmanto ciklus?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. lai salīdzinātu divas vērtības ",
+            "b. lai izvadītu informāciju uz ekrāna ",
+            "c. lai kādas darbības atkārtotu vairākas reizes ",
+            "d. lai izvēlētos vienu variantu no vairākiem "
+        ],
+        "correctAnswer": [
+            "c. lai kādas darbības atkārtotu vairākas reizes "
+        ]
+    },
+    {
+        "title": [
+            "Kurā vietā C++/Java/C# funkcijā (metodē) var aprakstīt mainīgo?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. uzreiz pēc funkcijas nosaukuma ",
+            "b. tikai funkcijas sākumā ",
+            "c. jebkurā funkcijas vietā pirms mainīgā izmantošanas ",
+            "d. tikai funkcijas beigās "
+        ],
+        "correctAnswer": [
+            "c. jebkurā funkcijas vietā pirms mainīgā izmantošanas "
+        ]
+    },
+    {
+        "title": [
+            "Kurš nav C++/Java/C# valodas nosacījuma operators vai operācija?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. case ",
+            "b. switch ",
+            "c. if ",
+            "d. ? "
+        ],
+        "correctAnswer": [
+            "a. case "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir klases atribūts (lauks)?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. klases instance ",
+            "b. mainīgais, kas apraksta klases datus ",
+            "c. lokālais metodes mainīgais ",
+            "d. metodes arguments "
+        ],
+        "correctAnswer": [
+            "b. mainīgais, kas apraksta klases datus "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir programmas mazākā izpildāmā vienība?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. operands ",
+            "b. teikums ",
+            "c. parametrs ",
+            "d. operators "
+        ],
+        "correctAnswer": []
+    },
+    {
+        "title": [
+            "Kurš no šiem cikliem ir cikls ar pēcnosacījumu?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. if ",
+            "b. repeat (vai do...while) ",
+            "c. while ",
+            "d. for "
+        ],
+        "correctAnswer": [
+            "b. repeat (vai do...while) "
+        ]
+    },
+    {
+        "title": [
+            "Kāda būs x mainīgā vērtība, ja ir dots šāds C++/Java/C# valodas programmas fragments? int a = 4; int b = 3; double x = a/b;"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. būs kompilācijas kļūda ",
+            "b. 2 ",
+            "c. 1 ",
+            "d. 1.333333333 "
+        ],
+        "correctAnswer": [
+            "c. 1 "
+        ]
+    },
+    {
+        "title": [
+            "Kurš operators programmēšanas valodās Pascal, C++, C# vai Java pārtrauc cikla izpildi un nodod vadību nākamajai komandai aiz cikla?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. continue ",
+            "b. default ",
+            "c. break ",
+            "d. gotoxy "
+        ],
+        "correctAnswer": [
+            "c. break "
+        ]
+    },
+    {
+        "title": [
+            "Kā izpaužas polimorfisms?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. ļauj vienu vārdu izmantot vairāku līdzīgu, bet tehniski atšķirīgu uzdevumu risināšanai ",
+            "b. aizsargā datus un metodes no ārējās iejaukšanās vai nepareizās izmantošanas ",
+            "c. ļauj vienu uzdevumu risināt dažādos veidos ",
+            "d. apvieno datus un kodu, kas manipulē ar šiem datiem "
+        ],
+        "correctAnswer": [
+            "a. ļauj vienu vārdu izmantot vairāku līdzīgu, bet tehniski atšķirīgu uzdevumu risināšanai "
+        ]
+    },
+    {
+        "title": [
+            "Cik konstruktoru un destruktoru var būt klasei OOP valodās C++, C#, Object Pascal un JAVA?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. viens konstruktors un vairāki destruktori ",
+            "b. viens konstruktors un viens destruktors ",
+            "c. vairāki konstruktori un vairāki destruktori ",
+            "d. vairāki konstruktori un viens destruktors "
+        ],
+        "correctAnswer": [
+            "d. vairāki konstruktori un viens destruktors "
+        ]
+    },
+    {
+        "title": [
+            "Kur apraksta funkciju /metožu parametrus?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. pie funkcijas / metodes vārda iekavās ",
+            "b. pirms funkcijas / metodes kā globālos mainīgos ",
+            "c. funkcijas  / metodes ķermenī, kā lokālos mainīgos ",
+            "d. jebkurā programmas vietā "
+        ],
+        "correctAnswer": [
+            "a. pie funkcijas / metodes vārda iekavās "
+        ]
+    },
+    {
+        "title": [
+            "Ko dara dotais kods, ja m ir masīvs ar 10 elementiem, bet mainīgie sm un i ir veselie?",
+            " C++/Java/C#:",
+            "sm = 0; i = 0; ",
+            "while (i < 10) {sm = sm + m[i]; i++;}",
+            "Pascal:",
+            "sm := 0; i := 0; ",
+            "while (i < 10) begin sm := sm + m[i]; inc(i); end;"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. nosaka i robežas ",
+            "b. saskaita sm un m ",
+            "c. sasummē masīva m elementu vērtības ",
+            "d. saskaita masīva elementu skaitu "
+        ],
+        "correctAnswer": [
+            "c. sasummē masīva m elementu vērtības "
+        ]
+    },
+    {
+        "title": [
+            "Kurš nav C++/Java/C# valodas cikla operators?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. for ",
+            "b. while ",
+            "c. do while ",
+            "d. if "
+        ],
+        "correctAnswer": [
+            "d. if "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir masīvs programmēšanās valodās Pascal, JAVA, C# vai C++?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. sakārtots dažādu tipu elementu kopums ",
+            "b. ierobežots vienāda tipa elementu kopums ",
+            "c. elementu kopa, kas ir izvēlēta no noteikta vērtību komplekta ",
+            "d. ierobežots dažādu tipu elementu kopums "
+        ],
+        "correctAnswer": [
+            "b. ierobežots vienāda tipa elementu kopums "
+        ]
+    },
+    {
+        "title": [
+            "Kas ir Delphi?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. kļūdu labotājs ",
+            "b. kompilators ",
+            "c. integrēta izstrādes vide ",
+            "d. atkļūdotājs "
+        ],
+        "correctAnswer": [
+            "c. integrēta izstrādes vide "
+        ]
+    },
+    {
+        "title": [
+            "Kuras datu struktūras neļauj apvienot zem viena nosaukuma vairākus datus?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. decimālās konstantes ",
+            "b. ieraksti ",
+            "c. masīvi ",
+            "d. dinamiskie masīvi "
+        ],
+        "correctAnswer": []
+    },
+    {
+        "title": [
+            "Tiek veidota klase MyClass. Kā var izveidot šīs klases konstruktoru C++ / Java / C# valodā?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. void MyClass( ){..} / public void MyClass( ){...} ",
+            "b. MyClass( ){…} / public MyClass( ){…} ",
+            "c. constructor MyClass( ){…} / public constructor MyClass( ){…} ",
+            "d. void MyClass( ){..} / public void MyClass( ){...} "
+        ],
+        "correctAnswer": [
+            "b. MyClass( ){…} / public MyClass( ){…} "
+        ]
+    },
+    {
+        "title": [
+            "",
+            "Kā izpaužas rekursija?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. apakšprogramma izsauc standartprocedūru ",
+            "b. apakšprogramma izsauc apakšprogrammu, kas uzrakstīta augstāk ",
+            "c. apakšprogramma izsauc pati sevi ",
+            "d. apakšprogramma izsauc apakšprogrammu, kas uzrakstīta zemāk "
+        ],
+        "correctAnswer": [
+            "c. apakšprogramma izsauc pati sevi "
+        ]
+    },
+    {
+        "title": [
+            "Kurš ir pareizs apgalvojums par if operatora nosacījuma daļu?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. to var nenoradīt, ja atļauj programmēšanas valoda ",
+            "b. to var nenorādīt, ja nav else daļas ",
+            "c. tas ir obligāti jānorāda ",
+            "d. to var nenorādīt, ja ir else daļa "
+        ],
+        "correctAnswer": [
+            "c. tas ir obligāti jānorāda "
+        ]
+    },
+    {
+        "title": [
+            "Kurš ir pareizs funkcijas (metodes) „vards” apraksts (prototips) C++/Java/C# valodā?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. int vards ( ); ",
+            "b. int function vards ( ); ",
+            "c. function vards : int; ",
+            "d. int vards: function; "
+        ],
+        "correctAnswer": [
+            "a. int vards ( ); "
+        ]
+    },
+    {
+        "title": [
+            "Kas programmēšanas valodās pēc noklusējuma kalpo par standarta izvades plūsmu?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. printeris ",
+            "b. disks ",
+            "c. RAM ",
+            "d. monitors "
+        ],
+        "correctAnswer": [
+            "d. monitors "
+        ]
+    },
+    {
+        "title": [
+            "Cik reizes izpildīsies šis cikls\nfor (int i = 0; i <= 5; i += 3)?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. 3 reizes ",
+            "b. 5 reizes ",
+            "c. 2 reizes ",
+            "d. nevienu reizi "
+        ],
+        "correctAnswer": [
+            "c. 2 reizes "
+        ]
+    },
+    {
+        "title": [
+            "",
+            "",
+            "Kas ir „klase”?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. sakārtots vienāda tipa elementu kopums ",
+            "b. programmēšanas valodas operators ",
+            "c. funkcijas tips, kurš apstrādā dažādu tipu datu laukus ",
+            "d. datu tips, kurš ietver datu elementus un to apstrādāšanas metodes "
+        ],
+        "correctAnswer": [
+            "d. datu tips, kurš ietver datu elementus un to apstrādāšanas metodes "
+        ]
+    },
+    {
+        "title": [
+            "Kas C++ / Java / C# valodās ir \"void\"?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. tukšums ",
+            "b. operators ",
+            "c. datu tips ",
+            "d. konstante "
+        ],
+        "correctAnswer": [
+            "a. tukšums "
+        ]
+    },
+    {
+        "title": [
+            "Cik reizes izpildīsies cikls dotajā programmas fragmentā (ja c un sum ir veselā tipa mainīgie)?",
+            " Pascal: ",
+            "sum:= 0; c := 5; WHILE c > 5 do Begin ",
+            "sum := sum + c; c := c + 2; end;",
+            "",
+            "C++ / C# / Java: ",
+            "c = 5; sum = 0; while (c > 5){",
+            "sum = sum + c;c+= 2;",
+            "}"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. 2 ",
+            "b. 1 ",
+            "c. 0 ",
+            "d. 5 "
+        ],
+        "correctAnswer": [
+            "c. 0 "
+        ]
+    },
+    {
+        "title": [
+            "Kuri klases atribūti pieder pašai klasei (visiem klases objektiem), nevis tikai konkrētajam objektam?"
+        ],
+        "category": "1. Programmēšanas valodas",
+        "answers": [
+            "a. dinamiskie ",
+            "b. statiskie ",
+            "c. publiskie ",
+            "d. abstraktie "
+        ],
+        "correctAnswer": [
+            "b. statiskie "
+        ]
+    }
+]
