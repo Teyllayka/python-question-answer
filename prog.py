@@ -3,41 +3,59 @@ import msvcrt
 import inquirer
 import random
 import time
+import json
 
-question = []
-with open("input.txt", 'r') as f:
-    for line in f.readlines():
-        question.append(line.split(' '))
+with open('questions.json') as f:
+    data = json.load(f)
 
-for i in range(len(question)):
-    for j in range(len(question[i])):
-        question[i][j] = question[i][j].rstrip('\n')
 
 was = []
+with open('save.data') as f:
+    line = f.readline()
+    string_list = line.split()
+    was = [int(x) for x in string_list]
 
-char = ''
+
 num = int(input("how many questions???"))
 
+if len(data) - len(was) < num:
+    num = len(data) - len(was)
+    print(f'too many questions will be shown only {num}')
+
+
+
+char = ''
 flag = False
 
-
-while len(was) < num:
-    ran = random.randint(0, len(question)-1)
+while num > 0:
+    ran = random.randint(0, len(data)-1)
     while ran in was:
-        ran = random.randint(0, len(question)-1)
+        ran = random.randint(0, len(data)-1)
     while True:
+        title = ""
+        for y in data[ran]["title"]:
+            title += y + "\n"
+        print(data[ran]["category"])
+        print(title)
         questions = [
             inquirer.List('answer',
-                          message=question[ran][0],
-                          choices=question[ran][1:-1],
+                          #message=title,
+                          message = " ",
+                          choices=data[ran]['answers'],
                           ),
         ]
         answers = inquirer.prompt(questions)
-        if answers['answer'] == question[ran][-1]:
-            print("correct!!")
-            break
+        answer = ""
+        for y in data[ran]["correctAnswer"]:
+            answer += y
+        if len(answer) != 0:
+            if answers['answer'] == answer:
+                print("correct!!")
+                break
+            else:
+                print("incorect!!")
         else:
-            print("incorect!!")
+            print("there is no correct answer")
         while True:
             print("press r to retry, n - next")
             char = msvcrt.getch().decode('utf-8')
@@ -55,3 +73,10 @@ while len(was) < num:
         time.sleep(1)
     print("\033c", end='')
     was.append(ran)
+    num -= 1
+
+with open('save.data', 'w') as f:
+    string_array = [str(x) for x in was]
+    separator = ' '
+    result_string = separator.join(string_array)
+    f.write(result_string)
