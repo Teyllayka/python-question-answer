@@ -21,11 +21,18 @@ num = int(input("how many questions???"))
 if len(data) - len(was) < num:
     num = len(data) - len(was)
     print(f'too many questions will be shown only {num}')
+elif len(data) - len(was) == 0:
+    was = []
+    print('you completed all questions, history is reset')
 
 
 
 char = ''
 flag = False
+dns = False
+
+
+
 
 while num > 0:
     ran = random.randint(0, len(data)-1)
@@ -51,10 +58,12 @@ while num > 0:
         if len(answer) != 0:
             if answers['answer'] == answer:
                 print("correct!!")
+                was.append(ran)
                 break
             else:
                 print("incorect!!")
         else:
+            dns = True
             print("there is no correct answer")
         while True:
             print("press r to retry, n - next")
@@ -71,8 +80,10 @@ while num > 0:
             break
     if char != "n" or char != "r":
         time.sleep(1)
+    if dns:
+        was.append(ran)
+        dns = False
     print("\033c", end='')
-    was.append(ran)
     num -= 1
 
 with open('save.data', 'w') as f:
