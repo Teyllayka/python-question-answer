@@ -1,3 +1,0 @@
-question1? a b c a
-question2? g f i i
-question3? b c z c
