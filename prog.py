@@ -18,13 +18,12 @@ with open('save.data') as f:
 
 num = int(input("how many questions???"))
 
-if len(data) - len(was) < num:
-    num = len(data) - len(was)
-    print(f'too many questions will be shown only {num}')
-elif len(data) - len(was) == 0:
+if len(data) - len(was) == 0:
     was = []
     print('you completed all questions, history is reset')
-
+elif len(data) - len(was) < num:
+    num = len(data) - len(was)
+    print(f'too many questions will be shown only {num}')
 
 
 char = ''
